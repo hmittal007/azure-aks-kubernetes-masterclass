@@ -11,7 +11,7 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '3eb44cb4-a6ce-4252-a229-6facec069099'
-  imageRepository: 'hmittalazureakskubernetesmasterclass'
+  imageRepository: 'app1/app1nginx'
   containerRegistry: 'hminforegistry.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/18-Azure-Container-Registry-ACR/18-01-ACR-attach-to-AKS/docker-manifests/Dockerfile'
   tag: '$(Build.BuildId)'
